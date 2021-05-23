@@ -11,7 +11,7 @@ export const LandingPageLayout = ({ children, ...props }) => (
     {...props}
   >
     <Header />
-    {props.children}
+    {children}
     <Footer />
   </Flex>
 );

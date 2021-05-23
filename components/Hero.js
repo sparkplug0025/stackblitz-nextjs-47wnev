@@ -10,6 +10,7 @@ import {
   Stack,
   Text
 } from "@chakra-ui/react";
+import { ChevronRightIcon } from "@chakra-ui/icons";
 
 export const Hero = ({
   title,
@@ -63,7 +64,7 @@ export const Hero = ({
             px="4"
             lineHeight="1"
             size="md"
-            rightIcon="chevron-right"
+            rightIcon={<ChevronRightIcon />}
           >
             {ctaText}
           </Button>
