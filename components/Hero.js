@@ -26,7 +26,7 @@ export const Hero = ({
       justify={{ base: "center", md: "space-around", xl: "space-between" }}
       direction={{ base: "column-reverse", md: "row" }}
       wrap="no-wrap"
-      minH="70vh"
+      minH="60vh"
       px={8}
       mb={16}
       {...props}
@@ -58,7 +58,7 @@ export const Hero = ({
         </Heading>
         <Link href={ctaLink}>
           <Button
-            variantColor="primary"
+            colorScheme="primary"
             borderRadius="8px"
             py="4"
             px="4"
